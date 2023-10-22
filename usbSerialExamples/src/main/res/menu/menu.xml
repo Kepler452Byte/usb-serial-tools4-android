@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/band1200" android:title="Band1200"/>
+    <item android:id="@+id/band2400" android:title="Band2400"/>
+    <item android:id="@+id/band4800" android:title="Band4800"/>
+    <item android:id="@+id/band9600" android:title="Band9600"/>
+    <item android:id="@+id/band115200" android:title="Band115200"/>
+    <item android:id="@+id/parityNone" android:title="ParityNone"/>
+    <item android:id="@+id/parityEven" android:title="ParityEven"/>
+    <item android:id="@+id/parityOdd" android:title="ParityOdd"/>
+    <item android:id="@+id/btnOpenOnTool" android:icon="@drawable/close"
+        android:title=""
+        app:showAsAction="always"/>
+    <item android:id="@+id/btnClearOnTool" android:icon="@drawable/clear_w"
+        android:title=""
+        app:showAsAction="always"/>
+</menu>

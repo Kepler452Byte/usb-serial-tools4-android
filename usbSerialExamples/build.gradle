@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 28
+
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        missingDimensionStrategy 'device', 'anyDevice'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+}
+
+dependencies {
+    implementation project(':usbSerialForAndroid')
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+}
